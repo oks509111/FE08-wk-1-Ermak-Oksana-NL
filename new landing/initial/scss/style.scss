@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.header_list {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-around;
+    background-image: ;
+}
+
+.list_container{
+    display: flex; 
+}
+.list_container_name {
+    display: inline-block;
+    vertical-align: top;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding-left: 59px;
+    font-weight: 700;
+    vertical-align: top;
+    position: relative;
+}
+
+
+

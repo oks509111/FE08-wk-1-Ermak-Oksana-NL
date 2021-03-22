@@ -1,0 +1,128 @@
+.team-row {
+    display: flex;
+    padding-bottom: 99px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+    .team-row {
+        padding-bottom: 45px;
+    }
+  }
+
+.team-item {
+    max-width: 272px;
+    display: block;
+    margin: auto;
+}
+@media (max-width: 1130px) {
+    .team-item {
+        margin-bottom: 10px;
+        
+    }
+  }
+  .team_item_img{
+    flex-wrap: wrap;
+  }
+ 
+  @media (max-width: 1024px) {
+    .team_item_img {
+       max-width: 130px;
+       height: 100px;
+    }
+  }
+
+.photo_team {
+    margin-bottom: 20px;  
+}
+@media (max-width: 1024px) {
+    .photo_team {
+      width: 100px;
+      
+    }
+  }
+
+.team_item_name {
+    font-size: 22px;
+line-height: 1.2;
+font-weight: 400;
+color: #2d3033;
+font-family: 'Raleway', sans-serif;
+text-align: left;
+margin-bottom: 10px;
+}
+@media (max-width: 1024px) {
+    .team_item_name {
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+  }
+
+
+
+.team_item_status{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #e84545;
+    text-align: left;
+    margin-bottom: 29px;
+}
+
+@media (max-width: 1024px) {
+    .team_item_status {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+  }
+
+.team_item_info {
+    font-family: 'Raleway', sans-serif;
+font-size: 14px;
+line-height: 21px;
+font-weight: 400;
+color: #6C7279;
+margin-bottom: 30px;
+}
+@media (max-width: 1024px) {
+    .team_item_info {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+  }
+
+
+.team_item_social {
+    display: flex;
+   justify-content: center;
+
+}
+.team_social {
+   font-size: 20px;
+    color: #c6cacc;
+    border: 1px solid #e8ecee;
+    padding: 10px 15px;
+    margin: 0 2px;
+    transition: .5s;
+}
+@media (max-width: 1024px) {
+    .team_social { 
+        border: none;
+        color: #FFFFFF;
+    }
+  }
+
+
+.team_social:hover {
+    color: blue;
+    border: 1px solid black;
+}
+@media (max-width: 1024px) {
+    .team_social:hover { 
+border: none;
+        color: red;
+    }
+  }
